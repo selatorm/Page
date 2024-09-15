@@ -1,0 +1,485 @@
+                                                                                                                                                                                q*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 700vh;
+    font: bold;
+}
+header{
+    background: white;
+    height: 20vh;
+    color: black;
+    display: flex;
+}
+.lead{
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+}
+.ul{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    gap: 30px;
+ 
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    text-decoration: none;
+}
+ul li {
+    display: flex;
+    gap: 60px;
+    text-decoration: none;
+}
+#get{
+    display: flex;
+    background: black;
+    color: white;
+    flex: 0.8;
+    align-items: center;
+    font-size: 25px;
+    flex-direction: row;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+} 
+h1{
+    color: rgb(196, 185, 185);
+}
+button{
+    color: white;
+    padding: 10px 60px;
+    align-self: flex-end;
+}
+.container{
+    height: 130vh;
+}
+.start{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 130vh;
+    background: black;
+  
+}
+.left{
+    background:black;
+    width: 60%;
+    color: white;
+    margin-top: 200px;
+}
+.right{
+    background: white;
+    width: 40%;
+    height: 100vh;
+    border: 1px solid black;
+    border-radius: 60px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+h1{
+    display: flex;
+    border-radius: 4px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+h5{
+    margin-left: 40px;
+    font-size: 20px;
+}
+.p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    width: 30px;
+    border-radius: 30px;
+    height:4vh;
+}
+.form{
+  margin-left: 15%;
+  margin-top: 90px;
+  height: 60vh;
+  gap: 20px;
+}
+.name{
+    display: flex;
+    height: 15vh;
+}
+.Name{
+    width: 100%;
+    margin-top: 30px;
+}
+button{
+    border-radius: 30px;
+    width: 75%;
+    height: 10vh;
+    border: none;
+    background: white;
+    color: gray;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.p{
+    background: red;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 7%;
+}
+.section{
+    height: 100vh;
+}
+.h1second{
+    margin-top: 5 px;
+}
+.group{
+    display: flex;
+    width: 80%;
+    margin-top: 30px;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 10%;
+    margin-top: 70px;
+    color: gray;
+}
+.left-second{
+    height: 50vh;
+    background: #fff;
+    width: 60%;
+}
+.left-second > img{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.center-second{
+    height:50vh;
+    background: #fff;
+    width: 60%;
+}
+.center-second > img{
+    margin-top: 30%;
+    width: 60%;
+    height: 6vh;
+    margin-left: 5%;
+}
+.right-second{
+    height: 50vh;
+    background: #fff;
+    width: 60%;
+}
+.right-second > img{
+    margin-top: 18%;
+    margin-left: 5%;
+}
+p{
+    font-size: 20px;
+}
+label{
+    font-size: 20px;
+    
+}
+img{
+    width: 40%;
+    height: 10vh;
+}
+.main{
+    height: 50vh;
+    width:100%;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    gap: 20px;
+    font: bold;
+    color: rgb(89, 129, 210);
+}
+.box1{
+    border: none;
+}
+.box2{
+    border:none;
+}
+.box3{
+    border: none;
+}
+h6{
+    font-size: 150%;
+    color: black;
+}
+.pp{
+    font-size: 110%;
+    color: gray;
+}
+i {
+    background: rgba(94, 158, 236, 0.265);
+    border-radius:5px;
+}
+.aside{
+    height: 50vh;
+    width:100%;
+    display: flex;
+    padding: 60px;
+    margin-top: 70px;
+    flex-direction: row;
+    gap: 70px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.left-third{
+    width: 40%;
+    height: 70vh;
+}
+.Get-started > button  {
+    border-radius: -50%;
+
+}
+.Get-started{
+    background: rgb(188, 34, 34);
+    width: 40%;
+    color: white;
+}
+.Talk-to-sale{
+    width: 40%;
+}
+.right-third{
+    background:red;
+    width: 40%;
+}
+#img{
+    width: 100%;
+    height: 70vh;
+}
+.section2{
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    padding: 60px;
+}
+.boxfirst1{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+}
+.h2{
+    color: red;
+}
+#h2{
+    font-size: 200%;
+    color: rgb(65, 63, 63);
+}
+.h1second2{
+    margin-top: 20px;
+}
+.group2{
+    display: flex;
+    width: 80%;
+    margin-top: 30px;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 10%;
+    margin-top: 70px;
+    color: gray;
+}
+.left-second2{
+    height: 60vh;
+    background: #fff;
+    width: 60%;
+}
+.number{
+    display: flex;
+    background:rgba(216, 198, 201, 0.402);
+    color: red;
+    border: 1px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    height: 15vh;
+    font-size: 50px;
+    margin-left: 20%;
+}
+.h22{
+    color: black;
+    font: bold;
+}
+.center-second2{
+    height:60vh;
+    background: #fff;
+    width: 60%;
+}
+.right-second2{
+    height: 60vh;
+    background: #fff;
+    width: 60%;
+}
+.classbox{
+    display: flex;
+    height: 150vh;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.boxfirst{
+    height: 20vh;
+    width: 100%;
+    margin-top: 20px;
+}
+.Browse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font: bold;
+    color: rgb(66, 63, 63);
+}
+.boxx1{
+    height: 50vh;
+    width: 45%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.boxx2{
+    height: 50vh;
+    width: 45%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.boxx3{
+    height: 50vh;
+    width: 45%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.boxx4{
+    height: 50vh;
+    width: 45%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.classbox2{
+    display: flex;
+    margin-top:30px;
+    height: 130vh;
+    width: 100%;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    background: black;
+    align-items: center;
+    justify-content: center;
+}
+.boxxx1{
+    height: 40vh;
+    width: 45%;
+    margin-top: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.boxxx2{
+    height: 40vh;
+    width: 45%;
+    margin-top: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.boxxx3{
+    height: 40vh;
+    width: 45%;
+    background: white;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.boxxx4{
+    height: 40vh;
+    width: 45%;
+    background: white;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.boxxx5{
+    height: 40vh;
+    width: 45%;
+    background: white;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.boxxx6{
+    height: 40vh;
+    width: 45%;
+    background: white;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#i1{
+    margin-left: 20%;
+}
+#i2{
+    margin-left: 20%;
+}
+#i3{
+    margin-left: 20%;
+}
+#i4{
+    margin-left: 20%;
+}
+.classbox3{
+    display: flex;
+    height: 200vh;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    font:bold;
+}
+.boxxone{
+    height: 45vh;
+    width: 18%;
+    margin-top: 50px;
+}
+.boxxtwo{
+    height: 45vh;
+    width: 18%;
+    margin-top: 50px;
+}
+.boxxthree{
+    height: 45vh;
+    width: 18%;
+    margin-top: 50px;
+
+}
+.boxxfour{
+    height: 45vh;
+    width: 18%;
+    margin-top: 50px;
+}
+.boxxfive{
+    height: 45vh;
+    width: 18%;
+    margin-top: 50px;
+}
+#New{
+    background: black;
+    color: white;
+    font-size: 15px;
+    height: 10vh;
+    margin-top: 20px;
+}
+.boxsecond{
+    height: 20vh;
+    width: 98%;
+    margin-top: -32%;
+}
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font: bold;
+    color: rgb(65, 61, 61);
+}
